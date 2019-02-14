@@ -1,5 +1,6 @@
 #! /usr/bin/python
 # coding:utf-8
+# 空水瓶问题
 
 while 1:
     try:
@@ -17,4 +18,5 @@ while 1:
             break
     except:
         break
+# 总结：用两个空水两瓶换一个，总数除以2即可
 
