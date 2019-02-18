@@ -1,9 +1,6 @@
 ## Newcoder 练习题
 Programming language: Python 2.7.x
 ### 剑指offer66题  
-#### [汽水瓶](https://github.com/JX-Wang/NewCoder/tree/master/%E6%B1%BD%E6%B0%B4%E7%93%B6)
-思路：每次将手中的水瓶对3进行取余，将取余后的空水瓶加上换来的水瓶再进行兑换，直到手中的水瓶数量小于2，等于2时+1  
-思路：空水平数量/2，向下取整  
 #### [孩子们的游戏](https://github.com/JX-Wang/NewCoder/tree/master/%E5%AD%A9%E5%AD%90%E4%BB%AC%E7%9A%84%E6%B8%B8%E6%88%8F)
 思路：每次拿到小礼品的孩子的位置为 (上一个小孩子的位置+m-1)%(小孩总数)，依次循环，直到列表中只有一个元素，输出即可
 #### [求1+2...+n](https://github.com/JX-Wang/NewCoder/tree/master/%E6%B1%821+2...+n)
@@ -27,7 +24,11 @@ Programming language: Python 2.7.x
 #### [构建乘积数组](https://github.com/JX-Wang/NewCoder/tree/master/%E6%9E%84%E5%BB%BA%E4%B9%98%E7%A7%AF%E6%95%B0%E7%BB%84)
 思路：对于B中的每个元素，构建一个去掉A中对应该下标元素的数组temp，将temp中的所有元素进行乘积后赋值给B中对应位置的元素即可
 #### [翻转单词序列](https://github.com/JX-Wang/NewCoder/tree/master/%E5%8F%8D%E8%BD%AC%E5%8D%95%E8%AF%8D%E5%BA%8F%E5%88%97)
-思路：调用python内置的reverse()方法进行翻转
+思路：调用python内置的reverse()方法进行翻转  
+### 其他练习题
+#### [汽水瓶](https://github.com/JX-Wang/NewCoder/tree/master/%E6%B1%BD%E6%B0%B4%E7%93%B6)
+思路：每次将手中的水瓶对3进行取余，将取余后的空水瓶加上换来的水瓶再进行兑换，直到手中的水瓶数量小于2，等于2时+1  
+思路：空水平数量/2，向下取整  
 #### [大整数相乘](https://github.com/JX-Wang/NewCoder/tree/master/%E5%A4%A7%E6%95%B4%E6%95%B0%E7%9B%B8%E4%B9%98)
 思路：python支持大整数
 #### [最大乘积](https://github.com/JX-Wang/NewCoder/tree/master/%E6%9C%80%E5%A4%A7%E4%B9%98%E7%A7%AF)
