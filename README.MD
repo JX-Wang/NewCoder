@@ -6,3 +6,5 @@ Programming language: Python 2.7.x
 思路：空水平数量/2，向下取整  
 #### [孩子们的游戏](https://github.com/JX-Wang/NewCoder/tree/master/%E5%AD%A9%E5%AD%90%E4%BB%AC%E7%9A%84%E6%B8%B8%E6%88%8F)
 思路：每次拿到小礼品的孩子的位置为 (上一个小孩子的位置+m-1)%(小孩总数)，依次循环，直到列表中只有一个元素，输出即可
+#### [求1+2...+n](https://github.com/JX-Wang/NewCoder/tree/master/%E6%B1%821+2...+n)
+思路：采用递归的形式进行求解
