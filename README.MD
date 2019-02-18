@@ -11,8 +11,24 @@ Programming language: Python 2.7.x
 #### [第一个只出现一次的字符](https://github.com/JX-Wang/NewCoder/tree/master/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8F%AA%E5%87%BA%E7%8E%B0%E4%B8%80%E6%AC%A1%E7%9A%84%E5%AD%97%E7%AC%A6)
 思路：遍历字符串，若在该字符的前后都没有出现该字符，将该字符输出，遍历结束后若返回-1
 #### [数组中只出现一次的字符](https://github.com/JX-Wang/NewCoder/tree/master/%E6%95%B0%E7%BB%84%E4%B8%AD%E5%8F%AA%E5%87%BA%E7%8E%B0%E4%B8%80%E6%AC%A1%E7%9A%84%E5%AD%97%E7%AC%A6)
-思路：遍历数组，每次遍历时都新建一个没有当前字符的暂时数组，若当前字符在暂时数组中找不到与之相同的字符，将其添加至结果列表中，直到结果列表中的字符为2，返回
+思路：遍历数组，每次遍历时都新建一个没有当前字符的暂时数组，若当前字符在暂时数组中找不到与之相同的字符，将其添加至结果列表中，直到结果列表中的字符为2
 #### [斐波那契数列](https://github.com/JX-Wang/NewCoder/edit/master/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/README.md)
 思路：做法十分简单，a[n] = a[n-1] + a[n-2]
 #### [数值的n次方](https://github.com/JX-Wang/NewCoder/tree/master/%E6%95%B0%E5%80%BC%E7%9A%84n%E6%AC%A1%E6%96%B9)
 思路：调用python内置的 ** 进行幂运算
+#### [跳台阶](https://github.com/JX-Wang/NewCoder/tree/master/%E8%B7%B3%E5%8F%B0%E9%98%B6)
+思路：与斐波那契数列做法相似
+#### [变态跳台阶](https://github.com/JX-Wang/NewCoder/tree/master/%E5%8F%98%E6%80%81%E8%B7%B3%E5%8F%B0%E9%98%B6)
+思路：a[n] = a[0] + ... + a[n-1]
+#### [替换空格](https://github.com/JX-Wang/NewCoder/tree/master/替换空格)
+思路：使用python内置的对于str的replace()方法
+#### [整数中1出现的次数](https://github.com/JX-Wang/NewCoder/tree/master/%E6%95%B4%E6%95%B0%E4%B8%AD1%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0)
+思路：将整数变为字符串，遍历字符串
+#### [构建乘积数组](https://github.com/JX-Wang/NewCoder/tree/master/%E6%9E%84%E5%BB%BA%E4%B9%98%E7%A7%AF%E6%95%B0%E7%BB%84)
+思路：对于B中的每个元素，构建一个去掉A中对应该下标元素的数组temp，将temp中的所有元素进行乘积后赋值给B中对应位置的元素即可
+#### [翻转单词序列](https://github.com/JX-Wang/NewCoder/tree/master/%E5%8F%8D%E8%BD%AC%E5%8D%95%E8%AF%8D%E5%BA%8F%E5%88%97)
+思路：调用python内置的reverse()方法进行翻转
+#### [大整数相乘](https://github.com/JX-Wang/NewCoder/tree/master/%E5%A4%A7%E6%95%B4%E6%95%B0%E7%9B%B8%E4%B9%98)
+思路：python支持大整数
+#### [最大乘积](https://github.com/JX-Wang/NewCoder/tree/master/%E6%9C%80%E5%A4%A7%E4%B9%98%E7%A7%AF)
+思路：排序后将首位四个数进行三个为组进行乘积操作，输出数值最大的数（该方法可以输出正确结果，但是nowcoder这里通不过）
