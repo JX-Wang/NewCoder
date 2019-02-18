@@ -25,6 +25,13 @@ Programming language: Python 2.7.x
 思路：对于B中的每个元素，构建一个去掉A中对应该下标元素的数组temp，将temp中的所有元素进行乘积后赋值给B中对应位置的元素即可
 #### [翻转单词序列](https://github.com/JX-Wang/NewCoder/tree/master/%E5%8F%8D%E8%BD%AC%E5%8D%95%E8%AF%8D%E5%BA%8F%E5%88%97)
 思路：调用python内置的reverse()方法进行翻转  
+#### [数据流中的中位数](https://github.com/JX-Wang/NewCoder/tree/master/%E6%95%B0%E6%8D%AE%E6%B5%81%E4%B8%AD%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0)
+思路：遍历原始列表，依次向temp列表中添加元素，再调用sorted()方法对temp列表进行排序再进行中位数的计算（代码可以得到正确结果，但是再newcoder这里通过不了）
+
+
+
+
+
 ### 其他练习题
 #### [汽水瓶](https://github.com/JX-Wang/NewCoder/tree/master/%E6%B1%BD%E6%B0%B4%E7%93%B6)
 思路：每次将手中的水瓶对3进行取余，将取余后的空水瓶加上换来的水瓶再进行兑换，直到手中的水瓶数量小于2，等于2时+1  
