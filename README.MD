@@ -1,6 +1,6 @@
 ## Newcoder 练习题
 Programming language: Python 2.7.x
-### 剑指offer66题  
+### 剑指offer66题  (更新中...)
 #### [孩子们的游戏](https://github.com/JX-Wang/NewCoder/tree/master/%E5%AD%A9%E5%AD%90%E4%BB%AC%E7%9A%84%E6%B8%B8%E6%88%8F)
 思路：每次拿到小礼品的孩子的位置为 (上一个小孩子的位置+m-1)%(小孩总数)，依次循环，直到列表中只有一个元素，输出即可
 #### [求1+2...+n](https://github.com/JX-Wang/NewCoder/tree/master/%E6%B1%821+2...+n)
