@@ -33,3 +33,5 @@ Programming language: Python 2.7.x
 思路：python支持大整数
 #### [最大乘积](https://github.com/JX-Wang/NewCoder/tree/master/%E6%9C%80%E5%A4%A7%E4%B9%98%E7%A7%AF)
 思路：排序后将首位四个数进行三个为组进行乘积操作，输出数值最大的数（该方法可以输出正确结果，但是nowcoder这里通不过）
+#### [去重排序](https://github.com/JX-Wang/NewCoder/tree/master/%E5%8E%BB%E9%87%8D%E6%8E%92%E5%BA%8F)
+思路：新建一个列表，每次从原始列表中向新建列表中添加元素时先检测是否有相同的元素，有则不添加，没有则反之，添加完后调用sort()进行排序
