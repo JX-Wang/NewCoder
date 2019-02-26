@@ -27,7 +27,10 @@ Programming language: Python 2.7.x
 思路：调用python内置的reverse()方法进行翻转  
 #### [数据流中的中位数](https://github.com/JX-Wang/NewCoder/tree/master/%E6%95%B0%E6%8D%AE%E6%B5%81%E4%B8%AD%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0)
 思路：遍历原始列表，依次向temp列表中添加元素，再调用sorted()方法对temp列表进行排序再进行中位数的计算（代码可以得到正确结果，但是再newcoder这里通过不了）
-
+#### [左旋转字符串](https://github.com/JX-Wang/NewCoder/tree/master/%E5%B7%A6%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2)
+思路：旋转的次数就是数列头移到数列尾的次数，使用中间变量进行中转
+#### [字符串的排列](https://github.com/JX-Wang/NewCoder/tree/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%8E%92%E5%88%97)
+思路：使用itertools迭代工具
 
 
 
